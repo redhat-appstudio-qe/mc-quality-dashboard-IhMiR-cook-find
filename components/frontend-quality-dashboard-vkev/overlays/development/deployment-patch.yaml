@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-vkev
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-iweu-tenant/mc-quality-dashboard/frontend-quality-dashboard-vkev@sha256:9cbc66d35dcf3a5ee21bdba40885bf200a9e265e69856123e516f22e5c3d7069
+        name: container-image
+        resources: {}
+status: {}
